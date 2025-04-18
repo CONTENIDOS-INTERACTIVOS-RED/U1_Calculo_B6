@@ -21,7 +21,7 @@
         h5.mb-4(data-aos="fade-left") La unidad está organizada en tres secciones principales. 
 
         .row.justify-content-center.align-items-stretch.mb-4
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -29,7 +29,7 @@
                 .col-lg
                   h5.mb-2 Primera
                   p.mb-0 Desigualdadaes e inecuaciones
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -37,7 +37,7 @@
                 .col-lg
                   h5.mb-2 Segunda
                   p.mb-0 Función
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto

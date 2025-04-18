@@ -66,7 +66,7 @@
                 p.mb-0 80x−(10,000+50x)>5,000 80x - (10,000 + 50x) > 5,000 80x−(10,000+50x)>5,000
         
         .row.justify-content-center.align-items-stretch.mb-4
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -74,7 +74,7 @@
                 .col-lg
                   h5.mb-2 Expresión inicial	
                   p.mb-0 80x - (10,000 + 50x) > 5,000
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -82,7 +82,7 @@
                 .col-lg
                   h5.mb-2 Eliminación de paréntesis	
                   p.mb-0 80x - 10,000 - 50x > 5,000
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -92,7 +92,7 @@
                   p.mb-0 30x - 10,000 > 5,000
         
         .row.justify-content-center.align-items-stretch.mb-4
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -100,7 +100,7 @@
                 .col-lg
                   h5.mb-2 Suma de 10,000 en ambos lados		
                   p.mb-0 30x > 15,000
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-4(data-aos="fade-left").h-100
               .row.align-items-center
                 .col-lg-auto
@@ -224,11 +224,11 @@
           .col-lg
             p.mb-0 Estos puntos representan los extremos de la recta <b>2x+3y=120</b> en el plano cartesiano. La región factible se encuentra <b>por debajo de esta recta</b>, dentro del primer cuadrante, ya que solo se permiten valores positivos para x y y.
     
-    h2(data-aos="fade-left") Paso 3. Determinar los vértices de la región factible
+    h2(data-aos="fade-left") .mb-3.mb-lg-0. Determinar los vértices de la región factible
     p.mb-5 La región factible está delimitada por tres puntos clave, que representan los posibles niveles de producción dentro de las restricciones establecidas.
             
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -236,7 +236,7 @@
             .col-lg
               h5.mb-2 (0,0)	
               p.mb-0 No se produce ningún producto.
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -244,7 +244,7 @@
             .col-lg
               h5.mb-2 (60,0)		
               p.mb-0 Se producen 60 unidades del producto A y 0 del producto B.
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -356,14 +356,14 @@
                         i.fas.fa-arrow-right
                       
     .row.mb-5
-      .col-lg-6.pe-0
+      .col-lg-6.pe-lg-0
         div.p-4.bg-color-6
           h5 Ejemplo  
           p Una empresa estima que sus ventas mensuales serán de $500,000. Sin embargo, al finalizar el mes, las ventas reales fueron de $480,000. ¿Cuál es la desviación absoluta entre las ventas estimadas y las ventas reales? Podemos calcular la desviación absoluta utilizando el valor absoluto:
           p |Ventas estimadas - Ventas reales| = |500,000 - 480,000| = |20,000| = $20,000.
         figure
           img(src="@/assets/curso/tema1/16.png", data-aos="zoom-in")
-      .col-lg-6.ps-0
+      .col-lg-6.ps-lg-0
         div.p-4.bg-color-8.h-100
           h5 Ejercicios:  
           h5 a) Calcular el valor absoluto de -12
@@ -390,10 +390,10 @@
     p.mb-4 La representación gráfica de las desigualdades e inecuaciones permite visualizar las regiones del plano cartesiano donde se cumplen dichas condiciones. Para graficar una desigualdad lineal, se grafica la recta correspondiente a la ecuación asociada y se sombrean los puntos que satisfacen la desigualdad.
 
     .row.mb-5
-      .col-lg-5.order-2
+      .col-lg-5.order-lg-2.mb-3.mb-lg-0.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/17.png", data-aos="zoom-in")
-      .col-lg-7.order-1.mb-3.mb-lg-0
+      .col-lg-7.order-lg-1
         .bg-color-8.p-4.mb-3(data-aos="fade-left")
           .row
             .col-lg-6
@@ -424,19 +424,19 @@
           h5 Ejemplo  
           p Un consumidor tiene un presupuesto de $100 para gastar en dos bienes, X e Y.
           .row.justify-content-center.align-items-stretch.mb-3
-            .col-lg-4
+            .col-lg-4.mb-3.mb-lg-0
               .bg-color-white.h-100.text-center
                 .bg-color-9.px-4.px-lg-5.py-3.rounded-top
                   p.mb-0 Precio del bien X	
                 p.mb-0.p-4 $4 por unidad
 
-            .col-lg-4
+            .col-lg-4.mb-3.mb-lg-0
               .bg-color-white.h-100.text-center
                 .bg-color-9.px-4.px-lg-5.py-3.rounded-top
                   p.mb-0 Precio del bien Y	
                 p.mb-0.p-4 $2 por unidad
 
-            .col-lg-4
+            .col-lg-4.mb-3.mb-lg-0
               .bg-color-white.h-100.text-center
                 .bg-color-9.px-4.px-lg-5.py-3.rounded-top
                   p.mb-0 Restricción presupuestaria
@@ -533,7 +533,7 @@
       p Para maximizar la utilidad, se igualan el ingreso marginal y el costo marginal: 
       .row.justify-content-center.mb-3
         .col-lg-4
-          .text-center.bg-color-white.p-4.pst
+          .text-center.bg-color-white.p-4
             p.mb-0 IMg(x )= CMg(x) ⇒ 25=10 ⇒ x=150 
       p Por lo tanto, la empresa maximiza su utilidad produciendo y vendiendo <b>150 unidades</b> del producto.
     
