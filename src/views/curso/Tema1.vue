@@ -224,7 +224,7 @@
           .col-lg
             p.mb-0 Estos puntos representan los extremos de la recta <b>2x+3y=120</b> en el plano cartesiano. La región factible se encuentra <b>por debajo de esta recta</b>, dentro del primer cuadrante, ya que solo se permiten valores positivos para x y y.
     
-    h2(data-aos="fade-left") .mb-3.mb-lg-0. Determinar los vértices de la región factible
+    h2(data-aos="fade-left").mb-3.mb-lg-0 Paso 3. Determinar los vértices de la región factible
     p.mb-5 La región factible está delimitada por tres puntos clave, que representan los posibles niveles de producción dentro de las restricciones establecidas.
             
     .row.justify-content-center.align-items-stretch.mb-4
